@@ -17,6 +17,9 @@ limitations under the License.
   "version": "1.0",
   "manifest_version": 2,
   "description": "Bone keyboard",
+  "background": {
+    "scripts": ["background.js"]
+  },
   "permissions": [
     "input"
   ],
@@ -27,7 +30,7 @@ limitations under the License.
       "id": "bone_xkb",
       "description": "Bone keyboard",  // user visible description
       "language": "de-DE",  // The primary language this IME is used for
-      "layouts": ["de(bone)"]
+      "layouts": ["de(neo)"]
     }
   ]
 }
